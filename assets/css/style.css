@@ -103,6 +103,16 @@ section {
 
 }
 
+.image1 {
+	clear: both;
+	/*display: inline-block;*/
+	max-width: 200px;
+	height: auto;
+	margin-right: 10px;
+	margin-bottom: 20px;
+
+    }
+
 #contact-me {
 	color: #4aaaa5;
 	content: center;
@@ -206,7 +216,7 @@ h2 {
 
 .image1 {
 	clear: both;
-	display: inline-block;
+	/*display: inline-block;*/
 	max-width: 100%;
 	height: auto;
 	margin-bottom: 20px;
@@ -237,7 +247,6 @@ h2 {
 #about-me {
 	display: block;
 	color: #4aaaa5;
-	/*color: blue;*/
 	content: center;
 	/*background-color: #ffffff;*/
 	background-color: #ffffff;
@@ -247,10 +256,21 @@ h2 {
 	text-align: left;
 	padding: 20px;
 	margin-left: 75px;
+	/*margin-right: 20px;*/
 	margin-top: 30px;
 	margin-bottom: 25px;
 	font-size: 20px;
 }
+
+.image1 {
+	clear: both;
+	display: inline-block;
+	width: 300px;
+	height: auto;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+    }
 
 #connect-me {
 	clear: both;
@@ -282,8 +302,10 @@ p {
 @media screen and (max-width: 640px) {
 	
 	header {position: static;}
+
 .wrapper {
-		width: 640px;
+		width: 600px;
+		margin: 0;
 	}
 
 	#name {
@@ -291,7 +313,7 @@ p {
 	color: white;
 	content: center;
 	background-color: #4aaaa5;
-	width: 100%;
+	width: 640px;
 	/*float: left;*/
 	text-align: center;
 	padding: 20px;
@@ -303,9 +325,10 @@ p {
 	margin: 0;
 	color: white;
 	background-color: #ffffff;
-	width: 100%;
-	/*float: left;*/
+	width: 640px;
+	float: left;
 	content: center;
+	margin-right: 70px;
 	text-align: center;
 	font-family: arial;
 	font-size: 20px;
@@ -318,7 +341,7 @@ p {
 #about-me {
 	display: block;
 	color: #4aaaa5;
-	/*color: blue;*/
+	color: blue;
 	content: center;
 	/*background-color: #ffffff;*/
 	background-color: #ffffff;
@@ -327,11 +350,24 @@ p {
 	float: left;
 	text-align: left;
 	padding: 20px;
-	margin-left: 100px;
+	margin-left: 75px;
+	margin-right: 75px;
 	margin-top: 30px;
 	margin-bottom: 25px;
 	font-size: 30px;
 }
+
+.image1 {
+	clear: both;
+	/*float: left;*/
+	content: center;
+	max-width: 100%;
+	height: auto;
+	/*margin-right: 20px;*/
+	margin-bottom: 20px;
+	margin-right: 120px;
+
+    }
 
 #connect-me {
 	clear: both;
@@ -343,7 +379,7 @@ p {
 	float: left;
 	text-align: left;
 	padding: 20px;
-	margin-left: 100px;
+	margin-left: 75px;
 	margin-top: 30px;
 	margin-bottom: 75px;
 	font-size: 20px;
